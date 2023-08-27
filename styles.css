@@ -1,0 +1,48 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodapé.css);
+
+.taylor{
+width: 70%;
+}
+
+:root {
+font-family: 'Roboto', sans-serif;
+--cor-de-fundo: #7a7a7a;
+--branco: #FFFFFF;
+--roxo: rgb(37, 37, 37);
+--fonte_principal: "Roboto";
+--roxinho: #6f0ace;
+--rosa: #ce0aa4;
+}
+
+body {
+background-color: var(--cor-de-fundo);
+font-family: var(--fonte_principal);
+font-size: 16px;
+font-weight: 400;
+}
+
+
+
+.descricao_imagem {
+    width: 40%;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .taylor {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .taylor {
+        width: 15%;
+    }
+}
